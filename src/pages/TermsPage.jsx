@@ -1,5 +1,4 @@
 import React from 'react';
-import { BreadcrumbBar } from '../components/common/BreadcrumbBar';
 import { TermsHeroSplit } from '../components/terms/TermsHeroSplit';
 import { TermsClausesSection } from '../components/terms/TermsClausesSection';
 import { TermsCalloutBanner } from '../components/terms/TermsCalloutBanner';
@@ -7,9 +6,6 @@ import { TermsCalloutBanner } from '../components/terms/TermsCalloutBanner';
 export function TermsPage() {
   return (
     <main className="w-full">
-      {/* Subheader Breadcrumb Bar */}
-      <BreadcrumbBar title="Terms and Conditions" parent="Houseziffy" />
-
       {/* Hero Split Section: Terms of Use Overview (Screenshot 1) */}
       <TermsHeroSplit />
 

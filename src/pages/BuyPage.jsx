@@ -1,5 +1,4 @@
 import React, { useState, useMemo } from 'react';
-import { BreadcrumbBar } from '../components/common/BreadcrumbBar';
 import { BuyHero } from '../components/buy/BuyHero';
 import { PropertyCard } from '../components/buy/PropertyCard';
 import { PropertyFilters } from '../components/buy/PropertyFilters';
@@ -50,9 +49,6 @@ export function BuyPage({ onNavigateToSell }) {
 
   return (
     <main className="w-full">
-      {/* Breadcrumb sub-header bar */}
-      <BreadcrumbBar title="Buy" parent="Houseziffy" />
-
       {/* Hero header */}
       <BuyHero totalCount={PROPERTY_LISTINGS.length} />
 

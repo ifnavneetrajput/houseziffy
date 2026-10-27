@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { BreadcrumbBar } from '../components/common/BreadcrumbBar';
 import { SellHero } from '../components/sell/SellHero';
 import { SellStepsSection } from '../components/sell/SellStepsSection';
 import { SellFormSection } from '../components/sell/SellFormSection';
@@ -16,9 +15,6 @@ export function SellPage() {
 
   return (
     <main className="w-full">
-      {/* Subheader Breadcrumb Bar */}
-      <BreadcrumbBar title="Sell" parent="Houseziffy" />
-
       {/* Hero Header matching Screenshot 1 */}
       <SellHero onScrollToForm={handleScrollToForm} />
 

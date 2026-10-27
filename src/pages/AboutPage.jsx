@@ -1,5 +1,4 @@
 import React from 'react';
-import { BreadcrumbBar } from '../components/common/BreadcrumbBar';
 import { HeroSection } from '../components/about/HeroSection';
 import { ServicesSection } from '../components/about/ServicesSection';
 import { TrustBenefitsSection } from '../components/about/TrustBenefitsSection';
@@ -14,9 +13,6 @@ import { TestimonialSection } from '../components/about/TestimonialSection';
 export function AboutPage() {
   return (
     <main className="w-full">
-      {/* Subtle Breadcrumb Sub-Header bar matching Screenshot 1 */}
-      <BreadcrumbBar title="About" parent="Houseziffy" />
-
       {/* Hero: "Explore Houseziffy’s Commitment to Excellence and Growth" (Screenshot 1) */}
       <HeroSection />
 

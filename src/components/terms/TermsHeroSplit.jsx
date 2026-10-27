@@ -8,7 +8,7 @@ import { TERMS_OVERVIEW } from '../../data/termsData';
  */
 export function TermsHeroSplit() {
   return (
-    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <section className="pt-16 pb-12 sm:pt-20 sm:pb-18 lg:pt-24 lg:pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="lg:grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
         {/* Left Column: Heading & Description (Screenshot 1) */}
         <div className="lg:col-span-6 flex flex-col justify-center mb-8 lg:mb-0">

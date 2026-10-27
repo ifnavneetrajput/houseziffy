@@ -4,7 +4,7 @@ import { ShieldCheckIcon, TriadDotsIcon, GridDotsIcon } from '../icons';
 
 export function BuyHero({ totalCount = 2 }) {
   return (
-    <section className="relative overflow-hidden pt-12 pb-10 sm:pt-16 sm:pb-14 px-4 sm:px-6 lg:px-8 border-b border-stone-100 bg-gradient-to-b from-[#FAF1ED]/50 to-white">
+    <section className="relative overflow-hidden pt-16 pb-12 sm:pt-20 sm:pb-16 px-4 sm:px-6 lg:px-8 border-b border-stone-100 bg-gradient-to-b from-[#FAF1ED]/50 to-white">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl">
           {/* Top Pill */}
